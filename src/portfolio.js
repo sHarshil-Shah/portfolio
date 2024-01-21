@@ -135,7 +135,7 @@ const degrees = {
       duration: "2022 - 2023",
       descriptions: [
         "⚡ Achieved AWS Cloud Practitioner Certificate",
-        "⚡ Studied Advanced Software Development Concepts, Data Managmenet & Warehousing, Advance Cloud Computing",
+        "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing, Advance Cloud Computing",
         "⚡ Upcoming courses: Advanced Topics in Web Development and Advance Cloud Architecture",
       ],
       website_link: "https://www.dal.ca/",
@@ -181,6 +181,21 @@ const experience = {
     {
       title: "Work",
       experiences: [
+        {
+          title: "Software Developer Intern",
+          company: "Ceridian",
+          company_url: "https://www.ceridian.com/ca",
+          logo_path: "Ceridian.png",
+          duration: "September 2023 - Present",
+          location: "Toronto",
+          description: `- Developed scalable and reusable react components following Micro-Frontend best practices utilizing Ceridian Everest
+            – State management using React Redux and Context API and React Router for seamless app navigation.
+            – Integration testing user interaction with the system using C# SpecFlow Selenium, validating end-to-end functionality
+            – Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization
+            – Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight
+            – Leveraging Azure DevOps for versioning (including branching, merging, and PRs), to maintain code integrity`,
+          color: "#2962FF",
+        },
         {
           title: "Full Stack Developer",
           company: "Wipro",
