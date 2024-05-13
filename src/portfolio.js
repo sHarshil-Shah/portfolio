@@ -188,13 +188,13 @@ const experience = {
           logo_path: "Ceridian.png",
           duration: "September 2023 - Present",
           location: "Toronto",
-          description: `- Developed scalable and reusable react components following Micro-Frontend best practices utilizing Ceridian Everest
-            – State management using React Redux and Context API and React Router for seamless app navigation.
-            – Integration testing user interaction with the system using C# SpecFlow Selenium, validating end-to-end functionality
-            – Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization
-            – Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight
+          description: `- Developed scalable and reusable react components following Micro-Frontend best practices utilizing Ceridian Everest \n
+            – State management using React Redux and Context API and React Router for seamless app navigation. \n
+            – Integration testing user interaction with the system using C# SpecFlow Selenium, validating end-to-end functionality \n
+            – Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization \n
+            – Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight \n
             – Leveraging Azure DevOps for versioning (including branching, merging, and PRs), to maintain code integrity`,
-          color: "#2962FF",
+          color: "blue",
         },
         {
           title: "Full Stack Developer",
@@ -203,17 +203,12 @@ const experience = {
           logo_path: "wipro.png",
           duration: "September 2020 - July 2022",
           location: "Pune",
-          description: `– Developed user interface utilizing Angular's features eg components, directives, and pipes.
-            – Created REST API microservices on top of 3rd party APIs using Java Spring Boot Framework.
-            – Worked with AWS architecture like EC2, S3.
-            – Coordinated a team of 5 developers`,
+          description: `– Developed user interface utilizing Angular's features eg components, directives, and pipes. \n
+            – Created REST API microservices on top of 3rd party APIs using Java Spring Boot Framework. \n
+            – Worked with AWS architecture like EC2, S3. \n
+            – Coordinated a team of 5 developers \n`,
           color: "#2962FF",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
         {
           title: "Software Developer Intern",
           company: "Capgemini",
@@ -221,10 +216,10 @@ const experience = {
           logo_path: "cap.png",
           duration: "December 2019 - April 2020",
           location: "Work From Home",
-          description: `– Represented a team of 4 interns
-            – Developed In-House Global Code Review Web Portal
-            – Implemented SVM classifier with accuracy of 87.65% for predicting any code as Good/Bad
-            – Participated in walkthrough reviews of technical specifications, programs, code, and unit test plans
+          description: `– Represented a team of 4 interns \n
+            – Developed In-House Global Code Review Web Portal \n
+            – Implemented SVM classifier with accuracy of 87.65% for predicting any code as Good/Bad \n
+            – Participated in walkthrough reviews of technical specifications, programs, code, and unit test plans \n
             – Classification Dataset was based on Halstead Matrix parameters and Cyclomatic Complexity of code`,
           color: "#ee3c26",
         },

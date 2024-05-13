@@ -1,30 +1,36 @@
 name: Deploy to GitHub Pages
-
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 on:
   push:
-    branches: [ master ] 
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
-  build-and-deploy:
+  build:
+
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3  # Checkout your code from GitHub
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-      - name: Use Node.js 16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: 16  # Adjust if your project requires a different version
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
 
-      - name: Install npm dependencies
-        run: npm install
-
-      - name: Build for production
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3  # Action for deployment
-        with:
-          github_token: ${{ secrets.GIT_TOKEN }}
-          publish_dir: ./build  # Path to your production build folder
-
+      - name: Deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
