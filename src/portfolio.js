@@ -188,12 +188,12 @@ const experience = {
           logo_path: "Ceridian.png",
           duration: "September 2023 - Present",
           location: "Toronto",
-          description: `- Developed scalable and reusable react components following Micro-Frontend best practices utilizing Ceridian Everest \n
-            – State management using React Redux and Context API and React Router for seamless app navigation. \n
-            – Integration testing user interaction with the system using C# SpecFlow Selenium, validating end-to-end functionality \n
-            – Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization \n
-            – Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight \n
-            – Leveraging Azure DevOps for versioning (including branching, merging, and PRs), to maintain code integrity`,
+          description: `– Developed scalable and reusable react components following Micro-Frontend best practices utilizing Custom UI library
+– State management using React Redux and Context API and React Router for seamless app navigation.
+– Integration testing user interaction with the system using SpecFlow Selenium, validating end-to-end functionality
+– Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization
+– Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight
+– Leveraging Azure DevOps for versioning (including branching, merging, and PRs), to maintain code integrity`,
           color: "blue",
         },
         {
@@ -203,10 +203,12 @@ const experience = {
           logo_path: "wipro.png",
           duration: "September 2020 - July 2022",
           location: "Pune",
-          description: `– Developed user interface utilizing Angular's features eg components, directives, and pipes. \n
-            – Created REST API microservices on top of 3rd party APIs using Java Spring Boot Framework. \n
-            – Worked with AWS architecture like EC2, S3. \n
-            – Coordinated a team of 5 developers \n`,
+          description: `– Coordinated a team of 5 developers to ensure continuous delivery of software modules
+– Deployed Spring boot automated solutions that successfully reduced day-to-day manual efforts by 90%
+– Implemented log parsing and health check cron jobs to monitor 2 applications with full coverage
+– Built DevOps pipelines (GitLab) for testing and continuous deployment ensuring 100% test coverage
+– Developed AWS Lambda pipelines with Step Functions to merge data from various DynamoDB sources
+– Maintained a client-centric mindset, understanding client challenges and goals to align solutions with requirements`,
           color: "#2962FF",
         },
         {
