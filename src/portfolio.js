@@ -182,61 +182,107 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Software Developer Intern",
-          company: "Ceridian",
-          company_url: "https://www.ceridian.com/ca",
-          logo_path: "Ceridian.png",
-          duration: "September 2023 - Present",
-          location: "Toronto",
-          description: `– Developed scalable and reusable react components following Micro-Frontend best practices utilizing Custom UI library
-– State management using React Redux and Context API and React Router for seamless app navigation.
-– Integration testing user interaction with the system using SpecFlow Selenium, validating end-to-end functionality
-– Decreased integration test run time by 70% by replacing manually wait functions with element locators and parallelization
-– Ensured 80% code coverage by unit testing using Jest (React) and Mockito (Spring Boot), gaining deep codebase insight
-– Leveraging Azure DevOps for versioning (including branching, merging, and PRs), to maintain code integrity`,
+          title: "Associate Full-stack Software Engineer",
+          company: "Manulife",
+          company_url: "https://www.manulife.ca/personal.html",
+          logo_path: "manulife.png",
+          duration: "July 2024 - Present",
+          location: "Waterloo, Ontario - Hybrid",
+          description: [
+            "– Develop and maintain full-stack business applications, managing the entire software development lifecycle from design to deployment and continuous improvement.",
+            "– Design and implement robust end-user interfaces, databases, APIs, and server-side logic for both front-end and back-end web application components.",
+            "– Apply disciplined coding practices, design patterns, and automation to ensure agility and deliver high-quality, maintainable code.",
+            "– Leverage development frameworks and third-party libraries to accelerate development and enhance application functionality.",
+            "– Conduct comprehensive testing and analysis to ensure software applications meet stringent quality standards and exceed end-user requirements.",
+            "– Author detailed system design specifications, guiding effective system and program development.",
+            "– Contribute to the development of automated test harnesses, ensuring the consistent delivery of high-quality code.",
+            '– Perform investigative "Spikes" to proactively mitigate technical uncertainty and risk in projects.',
+            "– Troubleshoot errors, resolve bugs, and optimize software efficiency and performance.",
+            "– Participate in ideation and brainstorming sessions, contributing to the development of innovative digital solutions.",
+            "– Create product prototypes using a variety of design techniques.",
+            "– Prepare essential documentation, including deployment, maintenance, support, and business requirement specifications.",
+            "– Demonstrate strong understanding and application of CI/CD methodologies, API development, DevSecOps principles, and database design.",
+            "– Conduct peer reviews of code and deliverables, fostering continuous learning and improvement within the team.",
+          ],
+          color: "#00FF00",
+        },
+        {
+          title: "Intern - Developer",
+          company: "Dayforce",
+          company_url: "https://www.dayforce.com/",
+          logo_path: "dayforce.jpeg",
+          duration: "September 2023 - June 2024",
+          location: "Remote",
+          description: [
+            "– Develop and test robust, scalable, and reusable software services.",
+            "– Create UI components using React, adhering to Micro-Frontend best practices.",
+            "– Integrate system components using React Redux, Context API, and React Router to ensure optimal design and seamless application navigation.",
+            "– Adhere to testing frameworks and best practices, achieving at least 80% code coverage to ensure high-quality code.",
+            "– Document software designs and maintain the team's development wiki space.",
+            "– Collaborate effectively within the Scrum team and with various stakeholders.",
+          ],
           color: "blue",
         },
         {
-          title: "Full Stack Developer",
+          title: "Project Engineer",
           company: "Wipro",
           company_url: "https://www.wipro.com/",
           logo_path: "wipro.png",
           duration: "September 2020 - July 2022",
-          location: "Pune",
-          description: `– Coordinated a team of 5 developers to ensure continuous delivery of software modules
-– Deployed Spring boot automated solutions that successfully reduced day-to-day manual efforts by 90%
-– Implemented log parsing and health check cron jobs to monitor 2 applications with full coverage
-– Built DevOps pipelines (GitLab) for testing and continuous deployment ensuring 100% test coverage
-– Developed AWS Lambda pipelines with Step Functions to merge data from various DynamoDB sources
-– Maintained a client-centric mindset, understanding client challenges and goals to align solutions with requirements`,
+          location: "Remote",
+          description: [
+            "– Execute comprehensive testing for newly developed features while providing critical support for production events, ensuring the reliability and availability of production servers.",
+            "– Engineered and deployed Java Spring Boot, Java REST APIs or Batch Scripts' automated solutions, significantly reducing manual effort for the support team.",
+            "– Analyzed and resolved production incidents, concurrently validating new features to guarantee the stability and reliability of deployed systems.",
+            "– Developed and maintained database migration scripts using SSMS for MSSQL, streamlining schema transitions.",
+            "– Authored and integrated log parsing and system health monitoring scripts via CRON jobs, proactively identifying and mitigating production issues to ensure high system availability.",
+            "– Collaborated cross-functionally with development teams to orchestrate end-to-end deployment processes, ensuring seamless integration of new software with minimal disruption.",
+            "– Created and maintained clear technical documentation covering the development lifecycle, code modifications, and new features to facilitate ongoing maintenance.",
+          ],
           color: "#2962FF",
         },
         {
-          title: "Software Developer Intern",
+          title: "Software Engineer Intern",
           company: "Capgemini",
           company_url: "https://www.capgemini.com/ca-en/",
           logo_path: "cap.png",
           duration: "December 2019 - April 2020",
-          location: "Work From Home",
-          description: `– Represented a team of 4 interns \n
-            – Developed In-House Global Code Review Web Portal \n
-            – Implemented SVM classifier with accuracy of 87.65% for predicting any code as Good/Bad \n
-            – Participated in walkthrough reviews of technical specifications, programs, code, and unit test plans \n
-            – Classification Dataset was based on Halstead Matrix parameters and Cyclomatic Complexity of code`,
+          location: "Remote",
+          description: [
+            `– Represented a team of 4 interns to develop In-House Global Code Review Web Portal`,
+            `– Implemented SVM classifier with accuracy of 87.65% for predicting any code as Good/Bad`,
+            `– Participated in walkthrough reviews of technical specifications, programs, code, and unit test plans`,
+            `– Classification Dataset was based on Halstead Matrix parameters and Cyclomatic Complexity of code`,
+          ],
           color: "#ee3c26",
         },
         {
-          title: "Software Developer Intern",
+          title: "Python Backend Developer",
+          company: "Sruta Technologies",
+          company_url: "https://srutatech.com/",
+          logo_path: "sruta.jpeg",
+          duration: "April 2019 - June 2019",
+          location: "Remote",
+          description: [
+            "– Developed analytics backend for Blood pressure data using Python",
+            "– Historical data was fetched from MySQL database",
+          ],
+          color: "#61A4FE",
+        },
+        {
+          title: "Research And Development Intern",
           company: "Ellipsis Infotech",
           company_url: "https://www.ellipsisinfotech.com/",
           logo_path: "e.png",
           duration: "May 2018 - June 2018",
-          location: "Work From Home",
-          description: `– Developed Image Analysis application for windows platform using Visual Studio and OpenCV \n
-            – Role included researching/learning about various Metallurgical terminologies to do the math \n
-            – Working closely with client and understanding requirement deeply \n
-            – Feature extraction from provided image dataset is done with 99% accuracy \n
-            – It was later integrated and deployed to the main product and now used by 3 of their customers`,
+          location: "Remote",
+          description: [
+            "– Research & learning about various Metallurgical terminologies while working closely with 1 client",
+            "– Feature extraction from provided image dataset is done with 99% accuracy using OpenCV",
+            "– Accomplished the successful delivery of a software resulting in a 100% reduction in costs",
+            "– It was later integrated and deployed to the main product and now used by 3 of their customers",
+            "– Developed Image Analysis application for windows platform using Visual Studio and OpenCV",
+          ],
           color: "#0071C5",
         },
       ],

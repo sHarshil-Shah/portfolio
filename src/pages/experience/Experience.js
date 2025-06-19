@@ -36,7 +36,12 @@ function Experience(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {experience["description"]}
+                {experience["description"].map((desc, index) => (
+                  <React.Fragment key={index}>
+                    {desc}
+                    <br />
+                  </React.Fragment>
+                ))}
               </p>
             </div>
           </div>
