@@ -57,7 +57,12 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          {experience["description"].map((desc, index) => (
+            <React.Fragment key={index}>
+              {desc}
+              <br />
+            </React.Fragment>
+          ))}
         </p>
       </div>
     </div>
